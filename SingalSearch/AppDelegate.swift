@@ -4,16 +4,19 @@
 //
 //  Created by Akihiro Inui on 08/05/2022.
 //
-
+import GooglePlaces
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    let googlePlaceApiKey:String = ProcessInfo.processInfo.environment["GOOGLE_PLACE_API_KEY"] ?? "undefined"
 
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Configure API key for GooglePlaces
+        GMSPlacesClient.provideAPIKey(googlePlaceApiKey)
+        
         return true
     }
 

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		426345D61F96BAF076976C49 /* Pods_SingalSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C25C376C7A3C167F9BB9E84 /* Pods_SingalSearchTests.framework */; };
+		4AFCA8D6EDB79BD7FBBC6287 /* Pods_SingalSearch_SingalSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9747C2A7B0FB341029405D0 /* Pods_SingalSearch_SingalSearchUITests.framework */; };
+		C2D2DD71A2C809C30E270C4A /* Pods_SingalSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD735F8C99E57932AFAFADE9 /* Pods_SingalSearch.framework */; };
+		C38C9630282AFA32008DDC9B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C356DB3B282AF6B000BC1C9A /* CoreLocation.framework */; };
+		C38C9632282AFF67008DDC9B /* GooglePlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C9631282AFF67008DDC9B /* GooglePlacesManager.swift */; };
+		C38C9634282B03E1008DDC9B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C9633282B03E1008DDC9B /* ResultViewController.swift */; };
 		C3CB12BC282811CD0016262D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB12BB282811CD0016262D /* AppDelegate.swift */; };
 		C3CB12BE282811CD0016262D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB12BD282811CD0016262D /* SceneDelegate.swift */; };
 		C3CB12C0282811CD0016262D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB12BF282811CD0016262D /* ViewController.swift */; };
@@ -36,6 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		086C963E2C3F10964787A704 /* Pods-SingalSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingalSearch.release.xcconfig"; path = "Target Support Files/Pods-SingalSearch/Pods-SingalSearch.release.xcconfig"; sourceTree = "<group>"; };
+		0AC5D5D3D35B481B33794C81 /* Pods-SingalSearch-SingalSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingalSearch-SingalSearchUITests.release.xcconfig"; path = "Target Support Files/Pods-SingalSearch-SingalSearchUITests/Pods-SingalSearch-SingalSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0F1DDBB22FAFD73D6A898413 /* Pods-SingalSearch-SingalSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingalSearch-SingalSearchUITests.debug.xcconfig"; path = "Target Support Files/Pods-SingalSearch-SingalSearchUITests/Pods-SingalSearch-SingalSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C25C376C7A3C167F9BB9E84 /* Pods_SingalSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingalSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B30711C6957247302CB6B4 /* Pods-SingalSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingalSearchTests.debug.xcconfig"; path = "Target Support Files/Pods-SingalSearchTests/Pods-SingalSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9747C2A7B0FB341029405D0 /* Pods_SingalSearch_SingalSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingalSearch_SingalSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C356DB3B282AF6B000BC1C9A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C38C9631282AFF67008DDC9B /* GooglePlacesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesManager.swift; sourceTree = "<group>"; };
+		C38C9633282B03E1008DDC9B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		C3CB12B8282811CD0016262D /* SingalSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingalSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CB12BB282811CD0016262D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3CB12BD282811CD0016262D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,9 @@
 		C3CB12D8282811CF0016262D /* SingalSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingalSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CB12DC282811CF0016262D /* SingalSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingalSearchUITests.swift; sourceTree = "<group>"; };
 		C3CB12DE282811CF0016262D /* SingalSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingalSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD735F8C99E57932AFAFADE9 /* Pods_SingalSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingalSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35BA204B27E2BEF88F8064A /* Pods-SingalSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingalSearch.debug.xcconfig"; path = "Target Support Files/Pods-SingalSearch/Pods-SingalSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		EFC6D31C65586C01D2EEB606 /* Pods-SingalSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingalSearchTests.release.xcconfig"; path = "Target Support Files/Pods-SingalSearchTests/Pods-SingalSearchTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38C9630282AFA32008DDC9B /* CoreLocation.framework in Frameworks */,
+				C2D2DD71A2C809C30E270C4A /* Pods_SingalSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				426345D61F96BAF076976C49 /* Pods_SingalSearchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +91,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AFCA8D6EDB79BD7FBBC6287 /* Pods_SingalSearch_SingalSearchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2C72C4C2D4AF2EEF77616A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E35BA204B27E2BEF88F8064A /* Pods-SingalSearch.debug.xcconfig */,
+				086C963E2C3F10964787A704 /* Pods-SingalSearch.release.xcconfig */,
+				0F1DDBB22FAFD73D6A898413 /* Pods-SingalSearch-SingalSearchUITests.debug.xcconfig */,
+				0AC5D5D3D35B481B33794C81 /* Pods-SingalSearch-SingalSearchUITests.release.xcconfig */,
+				B7B30711C6957247302CB6B4 /* Pods-SingalSearchTests.debug.xcconfig */,
+				EFC6D31C65586C01D2EEB606 /* Pods-SingalSearchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C3CB12AF282811CD0016262D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +118,8 @@
 				C3CB12D1282811CF0016262D /* SingalSearchTests */,
 				C3CB12DB282811CF0016262D /* SingalSearchUITests */,
 				C3CB12B9282811CD0016262D /* Products */,
+				C2C72C4C2D4AF2EEF77616A5 /* Pods */,
+				FA26841942437D5D73F29025 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +143,8 @@
 				C3CB12C4282811CE0016262D /* Assets.xcassets */,
 				C3CB12C6282811CE0016262D /* LaunchScreen.storyboard */,
 				C3CB12C9282811CE0016262D /* Info.plist */,
+				C38C9631282AFF67008DDC9B /* GooglePlacesManager.swift */,
+				C38C9633282B03E1008DDC9B /* ResultViewController.swift */,
 			);
 			path = SingalSearch;
 			sourceTree = "<group>";
@@ -127,6 +166,17 @@
 			path = SingalSearchUITests;
 			sourceTree = "<group>";
 		};
+		FA26841942437D5D73F29025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C356DB3B282AF6B000BC1C9A /* CoreLocation.framework */,
+				CD735F8C99E57932AFAFADE9 /* Pods_SingalSearch.framework */,
+				B9747C2A7B0FB341029405D0 /* Pods_SingalSearch_SingalSearchUITests.framework */,
+				2C25C376C7A3C167F9BB9E84 /* Pods_SingalSearchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3CB12E2282811CF0016262D /* Build configuration list for PBXNativeTarget "SingalSearch" */;
 			buildPhases = (
+				44CEF081E7ABFD134A42D0A1 /* [CP] Check Pods Manifest.lock */,
 				C3CB12B4282811CD0016262D /* Sources */,
 				C3CB12B5282811CD0016262D /* Frameworks */,
 				C3CB12B6282811CD0016262D /* Resources */,
+				50D2F2351FDD36D03C0527E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3CB12E5282811CF0016262D /* Build configuration list for PBXNativeTarget "SingalSearchTests" */;
 			buildPhases = (
+				D1A31A9D66A02B8547675618 /* [CP] Check Pods Manifest.lock */,
 				C3CB12CA282811CF0016262D /* Sources */,
 				C3CB12CB282811CF0016262D /* Frameworks */,
 				C3CB12CC282811CF0016262D /* Resources */,
@@ -169,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3CB12E8282811CF0016262D /* Build configuration list for PBXNativeTarget "SingalSearchUITests" */;
 			buildPhases = (
+				5AE5F38FCEFDC175B8155711 /* [CP] Check Pods Manifest.lock */,
 				C3CB12D4282811CF0016262D /* Sources */,
 				C3CB12D5282811CF0016262D /* Frameworks */,
 				C3CB12D6282811CF0016262D /* Resources */,
+				C60A4DE9C233CBF8C83A22A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,11 +308,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44CEF081E7ABFD134A42D0A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SingalSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50D2F2351FDD36D03C0527E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SingalSearch/Pods-SingalSearch-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SingalSearch/Pods-SingalSearch-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SingalSearch/Pods-SingalSearch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AE5F38FCEFDC175B8155711 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SingalSearch-SingalSearchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C60A4DE9C233CBF8C83A22A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SingalSearch-SingalSearchUITests/Pods-SingalSearch-SingalSearchUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SingalSearch-SingalSearchUITests/Pods-SingalSearch-SingalSearchUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SingalSearch-SingalSearchUITests/Pods-SingalSearch-SingalSearchUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A31A9D66A02B8547675618 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SingalSearchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3CB12B4282811CD0016262D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38C9634282B03E1008DDC9B /* ResultViewController.swift in Sources */,
+				C38C9632282AFF67008DDC9B /* GooglePlacesManager.swift in Sources */,
 				C3CB12C0282811CD0016262D /* ViewController.swift in Sources */,
 				C3CB12BC282811CD0016262D /* AppDelegate.swift in Sources */,
 				C3CB12BE282811CD0016262D /* SceneDelegate.swift in Sources */,
@@ -434,6 +594,7 @@
 		};
 		C3CB12E3282811CF0016262D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E35BA204B27E2BEF88F8064A /* Pods-SingalSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +623,7 @@
 		};
 		C3CB12E4282811CF0016262D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 086C963E2C3F10964787A704 /* Pods-SingalSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +652,7 @@
 		};
 		C3CB12E6282811CF0016262D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B30711C6957247302CB6B4 /* Pods-SingalSearchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +673,7 @@
 		};
 		C3CB12E7282811CF0016262D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC6D31C65586C01D2EEB606 /* Pods-SingalSearchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +694,7 @@
 		};
 		C3CB12E9282811CF0016262D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1DDBB22FAFD73D6A898413 /* Pods-SingalSearch-SingalSearchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +713,7 @@
 		};
 		C3CB12EA282811CF0016262D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC5D5D3D35B481B33794C81 /* Pods-SingalSearch-SingalSearchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
