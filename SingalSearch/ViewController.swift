@@ -12,11 +12,27 @@ import MapKit
 class ViewController: UIViewController, UISearchResultsUpdating {
     let mapView = GMSMapView()
     let searchVC = UISearchController(searchResultsController: ResultViewController())
-    
+    var locationManager = CLLocationManager()
+    // Navigate to current location
+
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Search Hotel"
+        
+        // Current location button
+        mapView.settings.myLocationButton = true
+        mapView.isMyLocationEnabled = true
+
+        // User Location
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.startUpdatingLocation()
+
+        self.view.addSubview(mapView)
+        self.view.bringSubviewToFront(mapView)
+        
         view.addSubview(mapView)
+        
         searchVC.searchBar.backgroundColor = .secondarySystemBackground
         searchVC.searchResultsUpdater = self
         navigationItem.searchController = searchVC
@@ -30,6 +46,16 @@ class ViewController: UIViewController, UISearchResultsUpdating {
             width: view.frame.size.width,
             height: view.frame.size.height - view.safeAreaInsets.top
         )
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let userLocation = locations.last
+
+        let camera = GMSCameraPosition.camera(withLatitude: userLocation!.coordinate.latitude,
+                                                          longitude: userLocation!.coordinate.latitude, zoom: 17.0)
+        self.mapView.animate(to: camera)
+
+        locationManager.stopUpdatingLocation()
     }
     
     func updateSearchResults(for searchController: UISearchController) {
