@@ -13,6 +13,8 @@
 		C38C9630282AFA32008DDC9B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C356DB3B282AF6B000BC1C9A /* CoreLocation.framework */; };
 		C38C9632282AFF67008DDC9B /* GooglePlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C9631282AFF67008DDC9B /* GooglePlacesManager.swift */; };
 		C38C9634282B03E1008DDC9B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C9633282B03E1008DDC9B /* ResultViewController.swift */; };
+		C39B8FC42831B0A700BDD0EF /* MapMarkerWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39B8FC32831B0A700BDD0EF /* MapMarkerWindowView.xib */; };
+		C39B8FC62831B0CB00BDD0EF /* MapMarkerWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39B8FC52831B0CB00BDD0EF /* MapMarkerWindow.swift */; };
 		C3CB12BC282811CD0016262D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB12BB282811CD0016262D /* AppDelegate.swift */; };
 		C3CB12BE282811CD0016262D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB12BD282811CD0016262D /* SceneDelegate.swift */; };
 		C3CB12C0282811CD0016262D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB12BF282811CD0016262D /* ViewController.swift */; };
@@ -51,6 +53,8 @@
 		C356DB3B282AF6B000BC1C9A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C38C9631282AFF67008DDC9B /* GooglePlacesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesManager.swift; sourceTree = "<group>"; };
 		C38C9633282B03E1008DDC9B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		C39B8FC32831B0A700BDD0EF /* MapMarkerWindowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapMarkerWindowView.xib; sourceTree = "<group>"; };
+		C39B8FC52831B0CB00BDD0EF /* MapMarkerWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMarkerWindow.swift; sourceTree = "<group>"; };
 		C3CB12B8282811CD0016262D /* SingalSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingalSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CB12BB282811CD0016262D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3CB12BD282811CD0016262D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 				C3CB12C9282811CE0016262D /* Info.plist */,
 				C38C9631282AFF67008DDC9B /* GooglePlacesManager.swift */,
 				C38C9633282B03E1008DDC9B /* ResultViewController.swift */,
+				C39B8FC32831B0A700BDD0EF /* MapMarkerWindowView.xib */,
+				C39B8FC52831B0CB00BDD0EF /* MapMarkerWindow.swift */,
 			);
 			path = SingalSearch;
 			sourceTree = "<group>";
@@ -289,6 +295,7 @@
 				C3CB12C8282811CE0016262D /* LaunchScreen.storyboard in Resources */,
 				C3CB12C5282811CE0016262D /* Assets.xcassets in Resources */,
 				C3CB12C3282811CD0016262D /* Main.storyboard in Resources */,
+				C39B8FC42831B0A700BDD0EF /* MapMarkerWindowView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39B8FC62831B0CB00BDD0EF /* MapMarkerWindow.swift in Sources */,
 				C38C9634282B03E1008DDC9B /* ResultViewController.swift in Sources */,
 				C38C9632282AFF67008DDC9B /* GooglePlacesManager.swift in Sources */,
 				C3CB12C0282811CD0016262D /* ViewController.swift in Sources */,
